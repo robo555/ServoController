@@ -1,4 +1,4 @@
-This code is for the MSP430 microcontroller.
+This is an embedded computing project for the MSP430 microcontroller.
 
 The program enables UART pins, reads the signal and translate it to PWM signals for controller servos.
 This was used to control the steering and throttle of the Tamiya TT-01 RC car.
