@@ -1,0 +1,14 @@
+This code is for the MSP430 microcontroller.
+
+The program enables UART pins, reads the signal and translate it to PWM signals for controller servos.
+This was used to control the steering and throttle of the Tamiya TT-01 RC car.
+
+The program is interrupt based so there is program loop when idle,
+allowing it to enter low power mode at each iteration, and wakes up at the next interrupt.
+
+On the other side of the equation, the UART signals are sent by a Raspberry Pi setup as a wireless hot spot.
+This allows any platform to connect to the Raspberry Pi via Wi-Fi to control the RC car.
+
+The setup can be seen in action here:
+http://i.imgur.com/LVMqyHp.jpg
+http://youtu.be/plBGQRBN6Qo
